@@ -1,0 +1,13 @@
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\bin\Debug\W2U.exe.config
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\bin\Debug\W2U.exe
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\bin\Debug\W2U.pdb
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\MainWindow.g.cs
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\App.g.cs
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U_MarkupCompile.cache
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U_MarkupCompile.lref
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\MainWindow.baml
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U.g.resources
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U.Properties.Resources.resources
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U.csproj.GenerateResource.Cache
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U.exe
+c:\users\lym\documents\visual studio 2015\Projects\W2U\W2U\obj\Debug\W2U.pdb

@@ -1,0 +1,38 @@
+﻿<Window x:Class="W2U.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:W2U"
+        mc:Ignorable="d"
+        Title="W2U" Height="150" Width="500" Closing="Window_Closing" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Row="0" Grid.Column="0" >
+            <TextBlock Text="连接状态:" TextAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </DockPanel>
+        <DockPanel Grid.Row="0" Grid.Column="1" Background="Yellow">
+            <Label Name="Conn_Status" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" Height="40"/>
+        </DockPanel>
+        <DockPanel Grid.Row="1" Grid.Column="0" >
+            <TextBlock Text="Unity传来的消息:" TextAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </DockPanel>
+        <DockPanel Grid.Row="1" Grid.Column="1" Background="LightBlue">
+            <Label Name="MSG_U2F" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" Height="40"/>
+        </DockPanel>
+        <DockPanel Grid.Row="2" Grid.Column="0" >
+            <TextBlock Text="发送消息给Unity:" TextAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </DockPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" >
+            <Button x:Name="MSG_Send2U" Content="Button" FontSize="20"  Click="MSG_Send2U_Click" Height="41" />
+        </StackPanel>
+    </Grid>
+</Window>
